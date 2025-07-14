@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test case ini memverifikasi bahwa pengguna dapat login ke sistem OrangeHRM dengan kredensial yang valid.&#xd;
+&#xd;
+Langkah:&#xd;
+- Masukkan username dan password valid&#xd;
+- Klik tombol login&#xd;
+- Verifikasi bahwa halaman dashboard muncul&#xd;
+&#xd;
+Asumsi: Username = Admin, Password = admin123</description>
+   <name>Login Valid</name>
+   <tag>login, positive, smoke, regression, orangehrm</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>64166d60-9c63-44d1-a266-02ef3c5dada5</testCaseGuid>
+</TestCaseEntity>
