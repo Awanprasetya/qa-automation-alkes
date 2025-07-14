@@ -1,0 +1,46 @@
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://localhost/alkes/')
+
+WebUI.setText(findTestObject('Page_Login Page/input_Login_username'), 'admin')
+
+WebUI.setEncryptedText(findTestObject('Page_Login Page/input_Login_password'), 'DWacgzd5u9FwiTvgP/heeA==')
+
+WebUI.sendKeys(findTestObject('Page_Login Page/input_Login_password'), Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('Object Repository/Stok/Produk_Jadi/Create/Positif/div_PRODUKSIMenu Produksi'))
+
+WebUI.click(findTestObject('Object Repository/Stok/Produk_Jadi/Create/Positif/div_INPUT HASIL PRODUKSI'))
+
+WebUI.click(findTestObject('Object Repository/Stok/Produk_Jadi/Create/Positif/a_Tambah Produk'))
+
+WebUI.setText(findTestObject('Object Repository/Stok/Produk_Jadi/Create/Positif/input__barcode'), 'G03140725')
+
+WebUI.setText(findTestObject('Object Repository/Stok/Produk_Jadi/Create/Positif/input__qty_jadi'), '200')
+
+WebUI.click(findTestObject('Object Repository/Stok/Produk_Jadi/Create/Positif/button_Submit'))
+
+WebUI.click(findTestObject('Object Repository/Stok/Produk_Jadi/Create/Positif/a_Save'))
+
+WebUI.setText(findTestObject('Object Repository/Stok/Produk_Jadi/Create/Positif/input_Export Excel_search'), 
+    'G031407')
+
