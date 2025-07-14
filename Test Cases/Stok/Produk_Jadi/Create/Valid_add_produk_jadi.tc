@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>menyimpan data produk jadi kedalam database&#xd;
+&#xd;
+asumsi : berhasil menyimpan data produk jadi kedatabase</description>
+   <name>Valid_add_produk_jadi</name>
+   <tag>stok, produk, positif</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>02071557-9638-42d7-853f-8424633dd40a</testCaseGuid>
+</TestCaseEntity>
