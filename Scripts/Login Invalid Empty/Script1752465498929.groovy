@@ -21,11 +21,5 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://alkes.arkanmedical.id/')
 
-WebUI.setText(findTestObject('Object Repository/Login/Negatif/Invalid_username_password/Login_Invalid_username'), 'admin')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Login/Negatif/Invalid_username_password/Login_Invalid_password'), 'RAIVpflpDOg=')
-
-WebUI.click(findTestObject('Object Repository/Login/Negatif/Invalid_username_password/button_Login'))
-
-WebUI.click(findTestObject('Object Repository/Login/Negatif/Invalid_username_password/button_alert_ok'))
+WebUI.click(findTestObject('Object Repository/Login/Negatif/Invalid_empty/button_Login'))
 

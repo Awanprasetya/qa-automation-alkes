@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>username dan password - kosong</description>
+   <name>Login Invalid Empty</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ea859f47-ca63-442e-ba3d-4e2c2b89a44b</testCaseGuid>
+</TestCaseEntity>
