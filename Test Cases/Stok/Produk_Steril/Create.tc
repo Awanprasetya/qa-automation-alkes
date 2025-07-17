@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>manambahkan data produk steril yang diambil dari data produk jadi, &#xd;
+&#xd;
+asumsi : setiap produk sterild diinput, produk jadi akan berkurang</description>
+   <name>Create</name>
+   <tag>positif, produk steril,</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7962e49d-3610-4cd6-8ff0-caf11866dcf8</testCaseGuid>
+</TestCaseEntity>
